@@ -42,11 +42,8 @@ gem 'guard-rails'
 gem 'guard-cucumber'
 gem 'guard-rspec'
 gem 'factory_girl_rails'
-group :test do
-  gem 'cucumber-rails'
-  gem 'capybara'
-  gem 'database_cleaner'
-  gem 'rspec-rails'
+group :test, :development do
+    gem 'rspec-rails'
 end
 gem 'foundation-rails'
 gem 'devise'
@@ -54,4 +51,8 @@ gem 'devise'
 group :development do
   gem 'honeybadger'
   gem 'rails_layout'
+end
+
+group :test do
+  gem 'capybara'
 end
