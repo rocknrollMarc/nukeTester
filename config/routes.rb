@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :projects
 
+  root 'home#index'
+
+  devise_for :users
   resources :projcts
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -8,7 +10,6 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'projects#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
