@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Index:</strong>
+  <%= @projct.index %>
+</p>
+
+<p>
+  <strong>Create:</strong>
+  <%= @projct.create %>
+</p>
+
+<p>
+  <strong>Edit:</strong>
+  <%= @projct.edit %>
+</p>
+
+<p>
+  <strong>Show:</strong>
+  <%= @projct.show %>
+</p>
+
+<%= link_to 'Edit', edit_projct_path(@projct) %> |
+<%= link_to 'Back', projcts_path %>
