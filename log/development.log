@@ -1,0 +1,980 @@
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+Processing by ApplicationController#verify as HTML
+Completed 500 Internal Server Error in 0ms
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 10:50:31 +0200
+Processing by ProjectsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7900ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=projects selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 16.6180ms
+  Rendered projects/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 833ms (Views: 805.6ms)
+
+
+Started GET "/assets/projcts.css?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/projcts.js?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 10:50:32 +0200
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2014-06-13 10:50:40 +0200
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (63.5ms)
+  Rendered projects/new.html.erb within layouts/application (120.7ms)
+Completed 200 OK in 169ms (Views: 167.2ms)
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 10:52:04 +0200
+Processing by ProjectsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 36.6630ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=projects selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3760ms
+  Rendered projects/index.html.erb within layouts/application (40.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 3907ms (Views: 3885.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 10:52:08 +0200
+Processing by ProjectsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4730ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=projects selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2260ms
+  Rendered projects/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.4ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/projcts.css?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/projcts.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 10:52:09 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 10:52:20 +0200
+Processing by ProjectsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4600ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=projects selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2140ms
+  Rendered projects/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 17ms (Views: 16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+Processing by ProjectsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5180ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=projects selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2400ms
+  Rendered projects/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.1ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/projcts.css?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/projcts.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 10:55:17 +0200
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 11:09:01 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 22ms (Views: 12.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-06-13 11:09:06 +0200
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/error_notifier.rb:43:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_feedback.rb:24:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_informer.rb:13:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.2ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (475.7ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2014-06-13 11:09:12 +0200
+
+ActionController::RoutingError (No route matches [GET] "/user"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/error_notifier.rb:43:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_feedback.rb:24:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_informer.rb:13:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (41.8ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-06-13 11:09:44 +0200
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 127ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-13 11:09:45 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_navigation.html.erb (62.2ms)
+Completed 500 Internal Server Error in 481ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fa0fa9090a0>:0x007fa0fa913e60>):
+    1: <%# navigation styled for Zurb Foundation 5 %>
+    2: <nav class="top-bar" data-topbar>
+    3:   <ul class="title-area">
+    4:     <li class="name"><%= link_to 'Home', root_path %></li>
+    5:     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    6:   </ul>
+    7:   <div class="top-bar-section">
+  app/views/layouts/_navigation.html.erb:4:in `_app_views_layouts__navigation_html_erb__2588329422512568156_70164668707980'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__16523693968522233_70164687707000'
+
+
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-13 11:16:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (57.9ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fa0fa8f0028>:0x007fa0fa8fab18>):
+    1: <%# navigation styled for Zurb Foundation 5 %>
+    2: <nav class="top-bar" data-topbar>
+    3:   <ul class="title-area">
+    4:     <li class="name"><%= link_to 'Home', root_path %></li>
+    5:     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    6:   </ul>
+    7:   <div class="top-bar-section">
+  app/views/layouts/_navigation.html.erb:4:in `_app_views_layouts__navigation_html_erb__2588329422512568156_70164668707980'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__16523693968522233_70164687707000'
+
+
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 11:16:59 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-06-13 11:17:05 +0200
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/error_notifier.rb:43:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_feedback.rb:24:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_informer.rb:13:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.0ms)
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+
+
+Started GET "/users" for 127.0.0.1 at 2014-06-13 11:19:48 +0200
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/error_notifier.rb:43:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_feedback.rb:24:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_informer.rb:13:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 11:19:59 +0200
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 6ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-13 11:19:59 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 21ms (Views: 19.3ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/projcts.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/projcts.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:00 +0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MQIUiHp9BK1msRXbtR9VN5F4jRWp2TL/A9CKpImfShE=", "user"=>{"email"=>"m.bluemner@liquidlabs.de", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8920ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=users selector={"$query"=>{"email"=>"m.bluemner@liquidlabs.de"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2460ms
+Completed 401 Unauthorized in 34ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MQIUiHp9BK1msRXbtR9VN5F4jRWp2TL/A9CKpImfShE=", "user"=>{"email"=>"m.bluemner@liquidlabs.de", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 16.1ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/projcts.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/projcts.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:21 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 16.2ms)
+
+
+Started GET "/assets/projcts.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:25 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:26 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:26 +0200
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:26 +0200
+
+
+Started GET "/assets/projcts.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:26 +0200
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:26 +0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 11:20:26 +0200
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-13 11:20:38 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MQIUiHp9BK1msRXbtR9VN5F4jRWp2TL/A9CKpImfShE=", "user"=>{"email"=>"m.bluemner@liquidlabs.de", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4580ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=users selector={"email"=>"m.bluemner@liquidlabs.de"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2680ms
+  MOPED: 127.0.0.1:27017 INSERT       database=nuke_tester_development collection=users documents=[{"_id"=>BSON::ObjectId('539ac2666d73704019020000'), "email"=>"m.bluemner@liquidlabs.de", "encrypted_password"=>"$2a$10$hwz/G0kNoZo867MScukJG.guVb9dXoQsWtH7T4BpssnuuaYnt5wk6", "sign_in_count"=>0}] flags=[]
+                         COMMAND      database=nuke_tester_development command={:getlasterror=>1, :w=>1} runtime: 1086.9020ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=nuke_tester_development collection=users selector={"_id"=>BSON::ObjectId('539ac2666d73704019020000')} update={"$set"=>{"last_sign_in_at"=>2014-06-13 09:20:39 UTC, "current_sign_in_at"=>2014-06-13 09:20:39 UTC, "last_sign_in_ip"=>"127.0.0.1", "current_sign_in_ip"=>"127.0.0.1", "sign_in_count"=>1}} flags=[]
+                         COMMAND      database=nuke_tester_development command={:getlasterror=>1, :w=>1} runtime: 22.1580ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 1193ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 11:20:39 +0200
+Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=nuke_tester_development collection=users selector={"$query"=>{"_id"=>{"$oid"=>BSON::ObjectId('539ac2666d73704019020000')}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 21.0030ms
+Completed 500 Internal Server Error in 22ms
+
+Moped::Errors::QueryFailure (The operation: #<Moped::Protocol::Query
+  @length=128
+  @request_id=9
+  @response_to=0
+  @op_code=2004
+  @flags=[]
+  @full_collection_name="nuke_tester_development.users"
+  @skip=0
+  @limit=-1
+  @selector={"$query"=>{"_id"=>{"$oid"=>BSON::ObjectId('539ac2666d73704019020000')}}, "$orderby"=>{:_id=>1}}
+  @fields=nil>
+failed with error 17287: "Can't canonicalize query: BadValue unknown operator: $oid"
+
+See https://github.com/mongodb/mongo/blob/master/docs/errors.md
+for details about this error.):
+  moped (2.0.0.rc1) lib/moped/operation/read.rb:50:in `block in execute'
+  moped (2.0.0.rc1) lib/moped/node.rb:594:in `[]'
+  moped (2.0.0.rc1) lib/moped/node.rb:594:in `block (2 levels) in flush'
+  moped (2.0.0.rc1) lib/moped/node.rb:593:in `map'
+  moped (2.0.0.rc1) lib/moped/node.rb:593:in `block in flush'
+  moped (2.0.0.rc1) lib/moped/node.rb:617:in `block in logging'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  moped (2.0.0.rc1) lib/moped/instrumentable.rb:31:in `instrument'
+  moped (2.0.0.rc1) lib/moped/node.rb:616:in `logging'
+  moped (2.0.0.rc1) lib/moped/node.rb:587:in `flush'
+  moped (2.0.0.rc1) lib/moped/node.rb:391:in `process'
+  moped (2.0.0.rc1) lib/moped/operation/read.rb:48:in `execute'
+  moped (2.0.0.rc1) lib/moped/node.rb:648:in `read'
+  moped (2.0.0.rc1) lib/moped/node.rb:411:in `query'
+  moped (2.0.0.rc1) lib/moped/query.rb:128:in `block in first'
+  moped (2.0.0.rc1) lib/moped/cluster.rb:243:in `block in with_primary'
+  moped (2.0.0.rc1) lib/moped/node.rb:204:in `block in ensure_primary'
+  moped (2.0.0.rc1) lib/moped/executable.rb:25:in `execute'
+  moped (2.0.0.rc1) lib/moped/node.rb:203:in `ensure_primary'
+  moped (2.0.0.rc1) lib/moped/cluster.rb:242:in `with_primary'
+  moped (2.0.0.rc1) lib/moped/read_preference/primary.rb:55:in `block in with_node'
+  moped (2.0.0.rc1) lib/moped/read_preference/selectable.rb:65:in `call'
+  moped (2.0.0.rc1) lib/moped/read_preference/selectable.rb:65:in `with_retry'
+  moped (2.0.0.rc1) lib/moped/read_preference/primary.rb:54:in `with_node'
+  moped (2.0.0.rc1) lib/moped/query.rb:127:in `first'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/query_cache.rb:187:in `block in first_with_cache'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/query_cache.rb:135:in `with_cache'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/query_cache.rb:186:in `first_with_cache'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/contextual/mongo.rb:199:in `block (2 levels) in first'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/contextual/mongo.rb:535:in `with_sorting'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/contextual/mongo.rb:198:in `block in first'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/contextual/mongo.rb:447:in `try_cache'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/contextual/mongo.rb:197:in `first'
+  /Users/marc.bluemner/.rvmruby-2.0.0 (p451) bundler/gems/mongoid-f9e6fdb1a67c/lib/mongoid/contextual.rb:20:in `first'
+  orm_adapter (0.5.0) lib/orm_adapter/adapters/mongoid.rb:22:in `get'
+  devise (3.2.4) lib/devise/models/authenticatable.rb:208:in `serialize_from_session'
+  devise (3.2.4) lib/devise.rb:462:in `block (2 levels) in configure_warden!'
+  warden (1.2.3) lib/warden/session_serializer.rb:34:in `fetch'
+  warden (1.2.3) lib/warden/proxy.rb:212:in `user'
+  warden (1.2.3) lib/warden/proxy.rb:318:in `_perform_authentication'
+  warden (1.2.3) lib/warden/proxy.rb:127:in `authenticate!'
+  devise (3.2.4) lib/devise/controllers/helpers.rb:50:in `authenticate_user!'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/error_notifier.rb:43:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_feedback.rb:24:in `call'
+  honeybadger (1.15.0) lib/honeybadger/rack/user_informer.rb:13:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/marc.bluemner/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/marc.bluemner/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
+** [Honeybadger] Exception caught while injecting dependency: NoMethodError -- undefined method `no_commands' for Thor:Class
